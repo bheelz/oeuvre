@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+dist/
+src/
+package-lock.json
+package.json
+tailwind.config.js
+
+# misc
+.DS_Store
+
+#designs
+psd/
+
