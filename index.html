@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/favicon" href="/images/favicon.png" />
+    <link rel="icon" type="image/favicon" href="/images/favicon.ico" />
     <title>OEUVRE - Luxury Clothing</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="mx-8 bg-pink-300">
-    <header>
+  <body class="relative">
+    <header class="absolute z-10 w-full px-8 box-border">
       <nav>
         <!--NAVBAR OVERALL DIV-->
         <div class="pt-10 pb-6">
@@ -38,15 +38,15 @@
       </nav>
     </header>
     <main>
-      <div>
-        <img class="mt-8 mb-3" src="/images/logo.png" alt="" />
-        <p class="text-center font-[BodoniModa] text-white">
-          Live Better, Live Luxury
-        </p>
-      </div>
-      <div>
-        <img src="/images/hero-1.png" alt="" />
+      <div class="relative px-8 bg-pink-300 h-screen">
+        <div class="pt-[100px]">
+          <img class="mt-8 mb-3" src="/images/logo.png" alt="" />
+        </div>
+        <div class="absolute left-0 right-0 w-full bottom-0">
+          <img src="/images/hero-1.png" alt="" />
+        </div>
       </div>
     </main>
   </body>
+  <script src="index.js"></script>
 </html>
