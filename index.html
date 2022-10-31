@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/favicon" href="/images/favicon.ico" />
     <title>OEUVRE - Luxury Clothing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
@@ -38,12 +44,34 @@
       </nav>
     </header>
     <main>
+      <!--OVERALL HERO DIV-->
       <div class="relative px-8 bg-pink-300 h-screen">
+        <!--LOGO DIV-->
         <div class="pt-[100px]">
           <img class="mt-8 mb-3" src="/images/logo.png" alt="" />
         </div>
+        <!--HERO DIV-->
         <div class="absolute left-0 right-0 w-full bottom-0">
-          <img src="/images/hero-1.png" alt="" />
+          <img class="px-10" src="/images/hero-1.png" alt="" />
+        </div>
+        <!--MOTTO PARAGRAPH-->
+        <p class=" text-white text-center font-thin font-['kanit']">
+          Phenomenal Wear for the Esquisite.
+        </p>
+        <!--MENS AND WOMENS BUTTON -->
+        <div class="flex justify-center space-x-7 font-medium font-['kanit'] pt-8">
+          <!--MENS BUTTON-->
+          <div
+            class="py-3 w-32 text-center text-white hover:text-black hover:bg-white cursor-pointer border-white border rounded-2xl"
+          >
+            <button class="uppercase">mens</button>
+          </div>
+          <!--WOMENS BUTTON-->
+          <div
+            class="py-3 w-32 text-center cursor-pointer hover:bg-white hover:text-black text-white border-white border rounded-2xl"
+          >
+            <button class="uppercase">womens</button>
+          </div>
         </div>
       </div>
     </main>
